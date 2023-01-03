@@ -5,9 +5,9 @@ This a simple way to transfer data between systems using an ascii syntax.
 
 The server side uses a trietree to store the data in memory, so the data is lost each time the server
 program is restarted.  To some this may seem like a bad thing but I designed this system as a way to
-store other programs data, like stats and other data to be sharted across systems.
+store other programs data, like stats and other data to be shared across systems.
 
-This uses UDP so that it is as fast as possible.  To help with any data lose do to missed UDP packets, I
+This uses UDP so that it is as fast as possible.  To help with any data lose, due to missed UDP packets, I
 send each packet to the server N number of times.  But if it loses a packet it really does not matter cause
 a packet being lost does not effect the system.
 
