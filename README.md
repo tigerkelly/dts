@@ -22,7 +22,7 @@ If you have the following interfaces on two different systems 192.168.0.15 and 1
 
 The server would call the easyUdp function with the following.
 
-	easUdp("192.168.0.15", "192.168.0.24", seqNumStart, &callback);
+	easyUdp("192.168.0.15", "192.168.0.24", seqNumStart, &callback);
 
 end the client would call the easyUdp with the following.
 
